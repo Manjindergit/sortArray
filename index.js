@@ -8,4 +8,4 @@ console.log(bubbleSortIntegers(arr));
 //selection sort
 
 let arr2 = ['apple', 'aanana', 'kiwi', 'orange', 'mango', 'grapes'];
-console.log(selectionSortStrings(arr2));
+console.log(selectionSortStrings(arr2));//this is not working properly

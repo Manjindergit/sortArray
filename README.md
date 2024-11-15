@@ -5,7 +5,8 @@ This project demonstrates a custom sorting algorithm implemented in Node.js. The
 ## Features
 
 1. **Integer Sorting**: Uses a Bubble Sort algorithm to sort an array of integers in ascending order.
-2. **String Sorting**: Uses a Bubble Sort algorithm to sort an array of strings in alphabetical order.
+2. **String Sorting**: Uses a Selection Sort algorithm to sort an array of strings in alphabetical order.
+
 
 ## Project Structure
 

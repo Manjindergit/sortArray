@@ -12,7 +12,22 @@ function bubbleSortIntegers(arr) {
 }
 
 
-//export the function
-module.exports = {
-    bubbleSortIntegers
-};
+// Selection Sort for strings
+function selectionSortStrings(arr) {
+    let n = arr.length;
+    for (let i = 0; i < n - 1; i++) {
+        let minIndex = i;
+        for (let j = i + 1; j < n; j++) {
+            if (arr[j] < arr[minIndex]) {
+                minIndex = j;
+            }
+        }
+        if (minIndex !== i) {
+            [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
+        }
+    }
+    return arr;
+}
+
+//export the functions
+module.exports = { bubbleSortIntegers, selectionSortStrings };
